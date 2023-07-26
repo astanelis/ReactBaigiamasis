@@ -1,0 +1,34 @@
+.update-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.update-form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.update-form input:focus {
+  border-color: #3498db;
+}
+
+.update-form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #293845;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-form button:hover {
+  background-color: #15222e;
+}

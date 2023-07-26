@@ -1,0 +1,83 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-left: 30px;
+}
+
+.social-media-icons a {
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.social-media-icons a:hover {
+  transform: scale(1.2);
+}
+
+.social-media-icons a[href*='facebook.com'] {
+  color: #3b5998;
+}
+
+.social-media-icons a[href*='instagram.com'] {
+  color: #c32aa3;
+}
+
+.social-media-icons a[href*='plus.google.com'] {
+  color: #db4437;
+}
+
+.host-button {
+  background-color: transparent;
+  border: none;
+  color: #f88d48;
+  font-size: 30px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-right: 30px;
+}
+
+.host-button:hover {
+  color: #4b8df8;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.modal-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.modal-close-button {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-close-button:hover {
+  color: #999;
+}
+
+.modal-hosts {
+  font-size: 18px;
+  color: #333;
+}
